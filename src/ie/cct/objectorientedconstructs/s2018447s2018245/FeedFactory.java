@@ -15,7 +15,7 @@ public class FeedFactory implements FeedFactoryInterface {
 	Feed f1 = new Feed("BREAKING NEWS", null);
 
 	public FeedFactory() {
-
+		//reading from the rss file
 		File file = new File("test.rss");
 		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 			String line;
