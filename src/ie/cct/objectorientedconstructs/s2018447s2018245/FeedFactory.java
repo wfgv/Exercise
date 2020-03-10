@@ -11,6 +11,8 @@ import ie.cct.objectorientedconstructs.FeedInterface;
 //@author Edwards Jr 2018245
 
 public class FeedFactory implements FeedFactoryInterface {
+	
+	Feed f1 = new Feed("BREAKING NEWS", null);
 
 	public FeedFactory() {
 
@@ -27,7 +29,7 @@ public class FeedFactory implements FeedFactoryInterface {
 
 	@Override
 	public FeedInterface createFeed(BufferedReader in) throws IOException {
-		return null;
+		return f1;
 
 	}
 
