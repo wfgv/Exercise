@@ -13,7 +13,7 @@ import ie.cct.objectorientedconstructs.FeedInterface;
 public class FeedFactory implements FeedFactoryInterface {
 
 	public FeedFactory() {
-
+		//reading from the rss file
 		File file = new File("test.rss");
 		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 			String line;
