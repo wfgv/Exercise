@@ -6,7 +6,7 @@ import ie.cct.objectorientedconstructs.FeedFactoryInterface;
 import ie.cct.objectorientedconstructs.FeedInterface;
 
 // Modify this to match your package
-import ie.cct.objectorientedconstructs.s12345s1234.FeedFactory;
+import ie.cct.objectorientedconstructs.s2018447s2018245.FeedFactory;
 
 public class FeedReader {
 	
